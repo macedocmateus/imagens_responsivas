@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Mateus">
+    <meta name="description" content="lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
+    <meta name="viewport" content="width=device-width">
+    <title>pagina de exemplo estrutura básica</title>
+    
+    <style>
+        img{
+            max-width: 100%;
+            height: auto;
+            }
+    </style>
+
+</head>
+<body>
+   <h1>picture</h1>
+
+   <picture>
+    <source media="(max-width: 320px)" srcset="./rwd-images/320_mob.jpg">
+    <source media="(max-width: 480px)" srcset="./rwd-images/480.jpg">
+    <source media="(max-width: 640px)" srcset="./rwd-images/640_mob.jpg">
+    <source media="(max-width: 822px)" srcset="./rwd-images/822_mob.jpg">
+    <source media="(max-width: 960px)" srcset="./rwd-images/960.jpg">
+    <img src="./rwd-images/1280.jpg" alt="texto alternativo">
+  </picture>
+  
+    </body>
+</html>
